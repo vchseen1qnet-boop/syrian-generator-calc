@@ -1,6 +1,6 @@
 {
   "cli": {
-    "version": ">= 5.2.0"
+    "version": ">= 12.0.0"
   },
   "build": {
     "preview": {
@@ -12,6 +12,10 @@
         "EXPO_USE_YARN": "false"
       }
     },
-    "production": {}
+    "production": {
+      "env": {
+        "EXPO_USE_YARN": "false"
+      }
+    }
   }
 }
