@@ -1,12 +1,11 @@
 {
   "expo": {
-    "name": "حاسبة المولدات السورية",
+    "name": "حاسبة مولدات سوريا",
     "slug": "syrian-generator-calc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "syrian-generator-calc",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/images/icon.png",
@@ -14,7 +13,7 @@
       "backgroundColor": "#CE1126"
     },
     "ios": {
-      "supportsTablet": false,
+      "supportsTablet": true,
       "bundleIdentifier": "com.syriangenerator.calculator"
     },
     "android": {
@@ -23,14 +22,13 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#007A3D"
-      },
-      "permissions": []
+      }
     },
     "web": {
       "favicon": "./assets/images/icon.png",
       "name": "حاسبة مولدات سوريا",
-      "shortName": "حاسبة مولدات",
-      "description": "حاسبة أحمال المولدات الكهربائية، التكاليف اليومية، واستهلاك الديزل للسوق السوري",
+      "shortName": "مولدات",
+      "description": "حاسبة أحمال المولدات الكهربائية وتكاليف اليوم واستهلاك السوق السورية",
       "themeColor": "#007A3D",
       "backgroundColor": "#1a1a1a",
       "startUrl": "/",
@@ -39,18 +37,11 @@
       "lang": "ar"
     },
     "plugins": [
-      [
-        "expo-router",
-        {
-          "origin": "https://replit.com/"
-        }
-      ],
-      "expo-font",
-      "expo-web-browser"
+      "expo-router",
+      "expo-font"
     ],
     "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
+      "typedRoutes": true
     }
   }
 }
